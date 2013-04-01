@@ -268,11 +268,13 @@ a, a:link, a:visited {
 	color: #005782;
 }
 
+/* Modified by Marcela Oliveira - April/2013*/
+/* border collor changed - before #D7D7D7 - after silver */
 div.details {
 	background: #FFD;
 	padding: 20px;
 	margin-bottom: 6px;
-	border: 1px solid #D7D7D7;
+	border: 1px solid silver;
 	margin: -11px -11px 15px -11px;
 }
 
@@ -319,49 +321,64 @@ table.list thead th {
 table.list td {padding: 5px;}
 table.list input[type="checkbox"] {margin-top: 6px;}
 
-table.list tbody tr:hover {background-color: #EFF5F8;}
+/* Modified by Marcela Oliveira - April/2013 */
+/* Background-color commented */
+/* table.list tbody tr:hover {background-color: #EFF5F8;}*/
 table.list tr.issue a { color: #666; }
 /*tr.odd {background-color: transparent;}
 tr.even {background-color: transparent;}
 table.list th {background-color: transparent;}*/
 
+/* Modified by Marcela Oliveira - April/2013 */
+/* Colors changed by status issue */
+div.issue.status-1 { background: #FCBDBD !important; }
+div.issue.status-2 { background: #C080FF !important; }
+div.issue.status-3 { background: #99CCFF !important; }
+div.issue.status-4 { background: #38D8E0 !important; }
+div.issue.status-5 { background: #D2F5B0 !important; }
+div.issue.status-6 { background: #C9CCC4 !important; }
+div.issue.status-7 { background: #E3B7EB !important; }
+div.issue.status-8 { background: #FFCD85 !important; }
+div.issue.status-9 { background: #FFF494 !important; }
+div.issue.status-10 { background: #C2DFFF !important; }
+div.issue.status-11 { background: #BCE647 !important; }
+div.issue.status-12 { background: #F94D51 !important; }
+div.issue.status-13 { background: #FFB380 !important; }
+div.issue{background:none !important;}
 
-/*Immediately*/
-tr.odd.priority-7, table.list tbody tr.odd.priority-7:hover { color: #900; font-weight: bold; }
-tr.odd.priority-7 { background: #ffc4c4; }
-tr.even.priority-7, table.list tbody tr.even.priority-7:hover { color: #900; font-weight: bold; }
-tr.even.priority-7 { background: #ffd4d4; }
-tr.priority-7 a, tr.priority-7:hover a { color: #900; }
-tr.odd.priority-7 td, tr.even.priority-7 td { border-color: #ffb4b4; }
+/* Modified by Marcela Oliveira - April/2013 */
+/* Colors changed by status table */
+table.list tbody tr.status-1 { background: #FCBDBD !important; }
+table.list tbody tr.status-2 { background: #C080FF !important; }
+table.list tbody tr.status-3 { background: #99CCFF !important; }
+table.list tbody tr.status-4 { background: #38D8E0 !important; }
+table.list tbody tr.status-5 { background: #D2F5B0 !important; }
+table.list tbody tr.status-6 { background: #C9CCC4 !important; }
+table.list tbody tr.status-7 { background: #E3B7EB !important; }
+table.list tbody tr.status-8 { background: #FFCD85 !important; }
+table.list tbody tr.status-9 { background: #FFF494 !important; }
+table.list tbody tr.status-10 { background: #C2DFFF !important; }
+table.list tbody tr.status-11 { background: #BCE647 !important; }
+table.list tbody tr.status-12 { background: #F94D51 !important; }
+table.list tbody tr.status-13 { background: #FFB380 !important; }
 
-/*High*/
-tr.odd.priority-5, table.list tbody tr.odd.priority-5:hover { color: #900; }
-tr.odd.priority-5 { background: #ffc4c4; }
-tr.even.priority-5, table.list tbody tr.even.priority-5:hover { color: #900; }
-tr.even.priority-5 { background: #ffd4d4; }
-tr.priority-5 a { color: #900; }
-tr.odd.priority-5 td, tr.even.priority-5 td { border-color: #ffb4b4; }
+/* Modified by Marcela Oliveira - April/2013 */
+/* Immediately */
+table.list tbody tr.priority-5 { color: #580305; font-weight: bold; }
+table.list tbody tr.priority-5 a { color: #580305; font-weight: bold; }
 
-/*Normal*/
-/*tr.odd.priority-4, table.list tbody tr.odd.priority-4:hover { color: #900; }
-tr.odd.priority-4 { background: #fee; }
-tr.even.priority-4, table.list tbody tr.even.priority-4:hover { color: #900; }
-tr.even.priority-4 { background: #fff2f2; }
-tr.priority-4 a { color: #900; }
-tr.odd.priority-4 td, tr.even.priority-4 td { border-color: #fcc; }*/
+/* Urgent */
+table.list tbody tr.priority-4 { color: #900; font-weight: bold;}
+table.list tbody tr.priority-4 a { color: #900; font-weight: bold;}
 
-/*Low*/
-tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover { color: #559; }
-tr.odd.priority-3 { background: #eaf7ff; }
-tr.even.priority-3, table.list tbody tr.even.priority-3:hover { color: #559; }
-tr.even.priority-3 { background: #f2faff; }
-tr.priority-3 a { color: #559; }
-tr.odd.priority-3 td, tr.even.priority-3 td { border-color: #add7f3; }
+/* High */
+table.list tbody tr.priority-3 { color: #559; font-weight: bold;}
+table.list tbody tr.priority-3 a { color: #559; font-weight: bold;}
 
 /* Buttons */
 /*input[type="button"], input[type="submit"], input[type="reset"] { background-color: #f2f2f2; color: #222222; border: 1px outset #cccccc; }
-input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover { background-color: #ccccbb; }
-*/
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover { background-color: #ccccbb; }*/
+
 /* Fields */
 input[type="text"], input[type="password"], textarea, select { padding: 2px; border: 1px solid #d7d7d7; }
 input[type="text"], input[type="password"] { padding: 3px; }
@@ -522,8 +539,10 @@ div.tooltip:hover span.tip {
 	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
 }
 
+/* Modified by Marcela Oliveira - April/2013 */
+/* background changed - before #AECCD7 - after #8c8c8c */
 table.progress td.closed {
-	background: #AECCD7 none repeat scroll 0%;
+	background: #8c8c8c none repeat scroll 0%;
 }
 
 table.progress td.done {
@@ -673,8 +692,13 @@ label#search_overlabel {	top: 11px !important;}
 table.contacts.index tbody tr:hover  {background-color: #EFF5F8 !important;}
 table.contacts.index tbody tr.context-menu-selection:hover  {background-color: #507AAA !important;}
 
+/* Modified by Marcela Oliveira - April/2013 */
+/* Add context menu selection configuration */
+.context-menu-selection {background-color: none !important; }
+.context-menu-selection:hover {background-color: none !important; }
+
 /*******************/
-/* 		TAGS			
+/* 	TAGS	   */		
 /*******************/
 
 #edit_tags_form {
@@ -861,7 +885,7 @@ span.invoice-status.sent {background-color: #3F8AF7 !important;}
 span.invoice-status.paid {background-color: green !important;}
 
 /*******************/
-/* 		STORE			
+/* 	STORE	   */	
 /*******************/
 
 div#main-menu li a.products {
@@ -924,7 +948,7 @@ a.buy-button.blue {
 
 
 /*******************/
-/* 		jQuery UI			
+/* 	jQuery UI  */			
 /*******************/
 .ui-widget {
 	font-family: inherit;
