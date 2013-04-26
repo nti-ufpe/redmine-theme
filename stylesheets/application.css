@@ -332,34 +332,34 @@ table.list th {background-color: transparent;}*/
 /* Modified by Marcela Oliveira - April/2013 */
 /* Colors changed by status issue */
 div.issue.status-1 { background: #FCBDBD !important; }
-div.issue.status-2 { background: #C080FF !important; }
+div.issue.status-2 { background: #BC9DBF !important; }
 div.issue.status-3 { background: #99CCFF !important; }
-div.issue.status-4 { background: #38D8E0 !important; }
+div.issue.status-4 { background: #63B6D9 !important; }
 div.issue.status-5 { background: #D2F5B0 !important; }
 div.issue.status-6 { background: #C9CCC4 !important; }
 div.issue.status-7 { background: #E3B7EB !important; }
 div.issue.status-8 { background: #FFCD85 !important; }
 div.issue.status-9 { background: #FFF494 !important; }
 div.issue.status-10 { background: #C2DFFF !important; }
-div.issue.status-11 { background: #BCE647 !important; }
-div.issue.status-12 { background: #F94D51 !important; }
+div.issue.status-11 { background: #A6DB74 !important; }
+div.issue.status-12 { background: #E47267 !important; }
 div.issue.status-13 { background: #FFB380 !important; }
 div.issue{background:none !important;}
 
 /* Modified by Marcela Oliveira - April/2013 */
 /* Colors changed by status table */
 table.list tbody tr.status-1 { background: #FCBDBD !important; }
-table.list tbody tr.status-2 { background: #C080FF !important; }
+table.list tbody tr.status-2 { background: #BC9DBF !important; }
 table.list tbody tr.status-3 { background: #99CCFF !important; }
-table.list tbody tr.status-4 { background: #38D8E0 !important; }
+table.list tbody tr.status-4 { background: #63B6D9 !important; }
 table.list tbody tr.status-5 { background: #D2F5B0 !important; }
 table.list tbody tr.status-6 { background: #C9CCC4 !important; }
 table.list tbody tr.status-7 { background: #E3B7EB !important; }
 table.list tbody tr.status-8 { background: #FFCD85 !important; }
 table.list tbody tr.status-9 { background: #FFF494 !important; }
 table.list tbody tr.status-10 { background: #C2DFFF !important; }
-table.list tbody tr.status-11 { background: #BCE647 !important; }
-table.list tbody tr.status-12 { background: #F94D51 !important; }
+table.list tbody tr.status-11 { background: #A6DB74 !important; }
+table.list tbody tr.status-12 { background: #E47267 !important; }
 table.list tbody tr.status-13 { background: #FFB380 !important; }
 
 /* Modified by Marcela Oliveira - April/2013 */
