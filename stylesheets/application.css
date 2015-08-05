@@ -347,9 +347,14 @@ div.issue.status-11 { background: #A6DB74 !important; }
 div.issue.status-12 { background: #E47267 !important; }
 div.issue.status-13 { background: #FFB380 !important; }
 div.issue.status-27 { background: #81F7BE !important; }
+div.issue.status-28 { background: #FFF494 !important; }
+div.issue.status-29 { background: #FFCD85 !important; }
+div.issue.status-30 { background: #E3B7EB !important; }
+div.issue.status-31 { background: #81F7BE !important; }
+div.issue.status-32 { background: #A6DB74 !important; }
 div.issue{background:none !important;}
 
-/* Modified by Geraldo Gomes - September/2014 */
+/* Modified by Marcela Oliveira - August/2015 */
 /* Colors changed by status table */
 table.list tbody tr.status-1 { background: #FCBDBD !important; }
 table.list tbody tr.status-2 { background: #BC9DBF !important; }
@@ -365,6 +370,11 @@ table.list tbody tr.status-11 { background: #A6DB74 !important; }
 table.list tbody tr.status-12 { background: #E47267 !important; }
 table.list tbody tr.status-13 { background: #FFB380 !important; }
 table.list tbody tr.status-27 { background: #81F7BE !important; }
+table.list tbody tr.status-28 { background: #FFF494 !important; }
+table.list tbody tr.status-29 { background: #FFCD85 !important; }
+table.list tbody tr.status-30 { background: #E3B7EB !important; }
+table.list tbody tr.status-31 { background: #81F7BE !important; }
+table.list tbody tr.status-32 { background: #A6DB74 !important; }
 
 /* Modified by Marcela Oliveira - April/2013 */
 /* Immediately */
